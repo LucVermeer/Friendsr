@@ -29,5 +29,7 @@ public class Friend implements Serializable {
         return rating;
     }
 
-
+    public void setRating(float rating) {
+        this.rating = rating;
+    }
 }
